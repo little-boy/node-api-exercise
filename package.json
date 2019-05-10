@@ -1,0 +1,25 @@
+{
+  "name": "node-api-exercise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "async": "^2.6.2",
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-validation": "^1.0.2",
+    "joi": "^14.3.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "q": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
